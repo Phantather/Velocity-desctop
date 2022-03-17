@@ -1,0 +1,11 @@
+.button {
+  padding: 0 31px;
+  height: 43px;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  border-radius: 4px;
+  @include text (normal, normal, 16px, 21px);
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+}

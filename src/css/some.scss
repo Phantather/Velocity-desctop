@@ -1,0 +1,90 @@
+.some {
+  padding: 77px 0 90px;
+  text-align: center;
+
+  &__title {
+    @include text(normal, normal, 30px, 36px);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+  }
+
+  &__descr {
+    @include text(normal, normal, 17px, 20px);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;;
+    margin: 17px 0 73px;
+  }
+
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+
+    &-item {
+      @include text(normal, normal, 16px, 21px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 70px;
+      transition: .3s;
+      cursor: pointer;
+      background: #92A0AD;
+      border-radius: 4px;
+      color: #fff;
+
+      &_active {
+        color: #fff;
+        background: #2E80B6;
+        border-radius: 4px;
+      }
+
+      &:hover {
+        color: #fff;
+        transition: .3s;
+        background: #2E80B6;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &__content {
+    display: none;
+    margin-top: 52px;
+
+    &_active {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__card {
+
+    &-title {
+      @include text(normal, normal, 30px, 36px);
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #676770;
+      margin: 16px 0;
+    }
+
+    &-descr {
+      @include text(normal, normal, 13px, 25px);
+      color: #6A859C;
+    }
+
+    &-item {
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+
+

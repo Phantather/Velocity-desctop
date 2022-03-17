@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f19b7486-fe93-4700-ae0a-bf92e20152a2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="24oslKZO6SbPSO9REHXrqAjhKWX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\vrlocity\src\images\some" />
+      <recent name="C:\Users\user\Desktop\vrlocity\src" />
+      <recent name="C:\Users\user\Desktop\vrlocity\src\images\inside" />
+      <recent name="C:\Users\user\Desktop\vrlocity\src\images" />
+      <recent name="C:\Users\user\Desktop\vrlocity\src\images\home" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f19b7486-fe93-4700-ae0a-bf92e20152a2" name="Default Changelist" comment="" />
+      <created>1644308423993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644308423993</updated>
+      <workItem from="1644308426542" duration="4293000" />
+      <workItem from="1644321947166" duration="20000" />
+      <workItem from="1644468316701" duration="978000" />
+      <workItem from="1645084071885" duration="2085000" />
+      <workItem from="1645178294548" duration="3729000" />
+      <workItem from="1645251858873" duration="28000" />
+      <workItem from="1646473261289" duration="2593000" />
+      <workItem from="1647491535292" duration="86000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="317" y="142" key="EditFileWatcherDialog" timestamp="1644308505786">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="317" y="142" key="EditFileWatcherDialog/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1644308505786" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1647491621012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1647491621012" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1645251884786" />
+  </component>
+</project>

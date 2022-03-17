@@ -1,0 +1,37 @@
+.footer {
+  &__top {
+    padding: 33px 0 40px;
+    display: flex;
+    column-gap: 30px;
+  }
+  &__content {
+    width: calc(50% - 15px);
+  }
+  &__title {
+    @include text(normal, normal, 18px, 20px);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 20px;
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    &-item {
+      @include text(normal, normal, 14px, 20px);
+      display: flex;
+      align-items: center;
+      column-gap: 5px;
+    }
+  }
+  &__link {
+    color: #668CAD;
+  }
+
+  &__bottom {
+    padding: 40px 0;
+    background: #383838;
+    text-align: center;
+    color: #9E9E9E;  }
+}

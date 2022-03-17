@@ -1,0 +1,25 @@
+.header {
+  padding: 11px 0 24px;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    @include text(normal, normal, 25px, 25px);
+    letter-spacing: 4px;
+    color: $blue;
+  }
+  &__links {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 40px;
+  }
+  &__link {
+    @include text(normal, normal, 16px, 20px);
+    color: #676770;
+    transition: 0.6s;
+    &:hover {
+      color: $blue;
+    }
+  }
+}

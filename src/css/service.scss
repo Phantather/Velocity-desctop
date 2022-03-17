@@ -1,0 +1,40 @@
+.service {
+  padding: 77px 0 96px;
+  background: #192024;
+  text-align: center;
+  &__title {
+    @include text(normal, normal, 30px, 36px);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__descr {
+    @include text(normal, normal, 17px, 20px);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #E8E8E8;
+    margin: 17px 0 77px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 50px;
+  }
+  &__card {
+    width: calc(50% - 25px);
+    &-img {
+      width: 100%;
+    }
+    &-title {
+      @include text(normal, normal, 20px, 30px);
+      letter-spacing: 7px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-top: 20px;
+    }
+    &-descr {
+      @include text(normal, normal, 14px, 25px);
+      color: #FFFFFF;
+      margin: 23px 0 17px;
+    }
+  }
+}

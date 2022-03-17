@@ -1,0 +1,39 @@
+.inside {
+  padding: 77px 0 80px;
+  text-align: center;
+  &__title {
+    @include text(normal, normal, 30px, 36px);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+  }
+  &__descr {
+    @include text(normal, normal, 17px, 20px);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+    margin: 17px 0 62px;
+  }
+  &__row {
+    display: flex;
+    column-gap: 20px;
+  }
+  &__block {
+    width: calc(33.33333% - 13.33333px);
+    border: 1px solid #DCEBF7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 36px 0 23px;
+    &-title {
+      @include text(normal, normal, 20px, 30px);
+      letter-spacing: 7px;
+      text-transform: uppercase;
+      color: #676770;
+      margin: 16px 0;
+    }
+    &-descr {
+      @include text(normal, normal, 14px, 25px);
+      color: #6A859C;
+    }
+  }
+}

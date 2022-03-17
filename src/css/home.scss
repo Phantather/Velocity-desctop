@@ -1,0 +1,29 @@
+.home {
+  padding: 184px 0 212px;
+  background: url("../images/home/bg.png") top left / 100% 100%;
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 107px;
+  }
+  &__title {
+    @include text(normal, normal, 50px, 60px);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+  &__btns {
+    display: flex;
+    column-gap: 20px;
+  }
+  &__btn {
+    transition: 0.6s;
+    &:hover {
+      border: 1px solid $blue;
+      background-color: $blue;
+    }
+  }
+}
